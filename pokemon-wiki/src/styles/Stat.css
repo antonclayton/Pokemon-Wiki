@@ -1,0 +1,89 @@
+.stat-container {
+    display: flex;
+    justify-content: center;
+    background-color: darkgreen;
+    flex-direction: column;
+    border-radius: 9.6px;
+    height: 100%;
+    border: 4px solid darkgreen;
+    font-weight: bold;
+    align-items: center;
+}
+
+.stat-bar-container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.stat-white-box {
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 0px 5px;
+    transition: width 1s ease-in-out;
+    text-align: center;
+}
+
+.stat-white-box p {
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.stat-headers {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.stat-container h3 {
+    color: white;
+    font-size: 0.6rem;
+}
+
+.stat-hp,
+.stat-attack,
+.stat-defense,
+.stat-Spattack,
+.stat-Spdefense,
+.stat-speed {
+    background-color: rgb(95, 165, 95);
+    border-radius: 10px 10px 0 0;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 7px;
+    padding: 8px;
+    display: flex;
+}
+
+.stat-total {
+    background-color: rgb(85, 131, 85);
+    border-radius: 10px 10px 0 0;
+    height: auto;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+}
+
+.stat-total-box p {
+    color: white;
+    font-size: 1rem;
+    text-align: start;
+    margin-left: 10px;
+}
+
+@media (max-width: 1000px) {
+    .stat-container h3{
+        font-size: 0.8rem;
+    }
+
+    .stat-white-box {
+        font-size: 0.7rem;
+    }
+}

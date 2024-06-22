@@ -1,0 +1,74 @@
+.search-container {
+    position: relative;
+    display: inline-block;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.search-form button{
+    width: 100%;
+    height: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    background-color: darkgreen;
+    color: white;
+    border: 2px solid rgb(0, 79, 0);
+    border-radius: 0;
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-form button:hover {
+    background-color: green;
+    border: 2px solid darkgreen;
+}
+
+.search-form input {
+    font-size: 1rem;
+    padding: 5px 20px 5px 5px;
+    width: 200px;
+    border: none;
+    border: 2px solid darkgrey;
+    outline:none;
+}
+
+.suggestions-list {
+    border: 1px solid #ccc;
+    border-top: none;
+    list-style: none;
+    margin: 0;
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.suggestions-list li {
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    margin-bottom: 2px;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.suggestions-list li:hover {
+    background-color: rgb(215, 214, 214);
+}

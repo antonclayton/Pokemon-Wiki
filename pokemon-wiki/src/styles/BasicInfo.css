@@ -1,0 +1,102 @@
+.basic-container {
+    width: 100%;
+    height: 100%;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    background-color: darkgreen;
+    flex-direction: column;
+    border-radius: 9.6px;
+    height: 100%;
+    border: 4px solid darkgreen;
+}
+
+.info-container h3 {
+    color: white;
+}
+
+.white-box {
+    background-color: rgb(231, 221, 221);
+    padding: 3px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 0px 5px;
+}
+
+.info-id {
+    background-color: rgb(85, 131, 85);
+    border-radius: 10px 10px 0 0;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 7px;
+    padding: 5px;
+}
+
+.info-id h3 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.info-name {
+    background-color: rgb(85, 131, 85);
+    border-radius: 10px;
+    margin-bottom: 7px;
+    height: auto;
+    padding: 5px;
+}
+.info-name h3 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.info-type {
+    background-color: rgb(85, 131, 85);
+    border-radius: 10px;
+    margin-bottom: 7px;
+    height: auto;
+    padding: 5px;
+}
+.info-type h3 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.info-ability {
+    background-color: rgb(85, 131, 85);
+    border-radius: 10px;
+    margin-bottom: 7px;
+    height: auto;
+    padding: 5px;
+}
+.info-ability h3 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.info-hidden {
+    background-color: rgb(85, 131, 85);
+    border-radius: 10px;
+    height: auto;
+    padding: 5px;
+}
+.info-hidden h3 {
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+}
+
+
+@media (max-width: 1000px) {
+    .info-container {
+        font-size: 0.7rem;
+    }
+
+    .info-container h3 {
+        font-size: 0.9rem;
+    }
+
+    .info-container .white-box {
+        margin: 2px;
+    }
+}

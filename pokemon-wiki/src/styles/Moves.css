@@ -1,0 +1,15 @@
+.moves-container {
+    display: flex;
+    justify-content: center;
+    background-color: darkgreen;
+    width: 100%;
+    height: 100%;
+    border-radius: 9.6px;
+}
+
+.moves-data {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
